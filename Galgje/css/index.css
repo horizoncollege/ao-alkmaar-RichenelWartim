@@ -1,0 +1,81 @@
+body {
+    background-color: hotpink;
+    text-align: center;
+    font-style: none;
+}
+
+button {
+    background-color: skyblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 100px;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+}   
+#gekozenbtn{
+    background-color: skyblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 100px;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+#woord{
+    background-color: skyblue;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 100px;
+    padding: 1rem 4rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+    
+}
+#Alphabet{
+    background-color: skyblue;
+    border-radius: 1px;
+    border: none;
+    color: white;
+    margin: 5px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;
+}
+#start{
+    background-color: skyblue;
+    border-radius: 1px;
+    border: none;
+    color: white;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    text-decoration: none;  
+}
