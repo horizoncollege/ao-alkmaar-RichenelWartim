@@ -20,21 +20,25 @@
                 </div>
             </div>
             <div class="col-sm-3 w-50">
+                <h1>Galgje</h1>
                 <a href="Galgje/" target="_blank"><img src="img/Galgje.png" alt="HTML tutorial" class="row-sm-4 w-50" style="width: 100%;"></a>
             </div>
             <div class="col-sm-4 w-50">
                 <div class="row-sm-3 " style="height: 425px;">
+                    <h1>Rock, Paper, Scissors</h1>
                     <a href="RPS/" target="_blank"><img src="img/RPS.png" alt="HTML tutorial" class="row-sm-4 w-50" style="width: 100%;"></a>
                 </div>
             </div>
             <div class="col-sm-4 w-50">
                 <div class="row-sm-3 " style="height: 425px;">
+                    <h1>Wie ben ik</h1>
                     <a href="Wie/" target="_blank"><img src="img/Wie.png" alt="HTML tutorial" class="row-sm-4 w-50" style="width: 100%;"></a>
                 </div>
             </div>
         </div>
         <div class="col-sm-4 w-50">
             <div class="row-sm-3 " style="height: 425px;">
+                <h1>Blauw rechts (Burgerschap opdracht)</h1>
                 <a href="br/" target="_blank"><img src="img/br.png" alt="HTML tutorial" class="row-sm-4 w-50" style="width: 100%;"></a>
             </div>
         </div>
