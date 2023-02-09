@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>who am I</title>
+</head>
+
+<body>
+    <div class="all">
+        <header class="Header">
+            <nav class="navbar">
+                <a href="Home.html"> <img src="Logo.png" alt="Logo" />
+                    <h1>Richenel Wartim</h1>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="wie.html" class="nav-link">wie ben ik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Sport.html" class="nav-link">Sport</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Hobby.html" class="nav-link">Hobby's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            <script>
+                const hamburger = document.querySelector(".hamburger");
+                const navMenu = document.querySelector(".nav-menu");
+
+                hamburger.addEventListener("click", mobileMenu);
+
+                function mobileMenu() {
+                    hamburger.classList.toggle("active");
+                    navMenu.classList.toggle("active");
+                }
+                const navLink = document.querySelectorAll(".nav-link");
+
+                navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+                function closeMenu() {
+                    hamburger.classList.remove("active");
+                    navMenu.classList.remove("active");
+                }</script>
+            <Div class="Body">
+                <div class="Dungeon">
+                    <div class="Dungeontext">
+                        <h1>Dungeon and Dragons</h1>
+                        <a4> Ik ben een Dungeon and Dragons fan (DND) Dit spel speel ik met mijn vrienden van school en
+                            ook Mijn vrienden online
+                            Ik doe dit drie keer in de week. één keer op dinsdag, één keer op vrijdag en één keer op
+                            Zaterdag. dit zijn dan ook
+                            Drie verschillende Campaigns ook. Mijn dinsdag en vrijdag Campaigns zijn High fantasy.
+                            Terwijl mijn Zaterdag Campaign
+                            een post apocilypise Campaign is. Tot nu toe is mijn favoriete Campaign mijn zaterdag
+                            Campaign. Dit komt omdat deze
+                            campaign het meeste me aan spreekt. Doordat ik zelf in een militaire setting heb gezeten.
+                            Ook komt dit om data de mensen
+                            Waarmee ik speel op die dag. Ken ik al heel lang en zijn redelijke close met mij.
+                        </a4>
+                    </div>
+
+                    <div class="Dndimg">
+                        <img src="Dnd.png" alt="me" />
+                        <a3> characters van Mijn zaterdag DnD groep</a3>
+                    </div>
+                </Div>
+                <Div class="Larp">
+                    <div class="Larptext">
+                        <h1>Larpen</h1>
+                        <a4>
+                            Larpen Dat staat voor (Live Action Roleplay). Dit doe ik nu voor ongeveer 3 Jaar al. Zelf
+                            heb ik mijn eigen uitrusting.
+                            Met deze uitrusting ga ik dan naar verschillende events toe. Tot nu toe ga ik vaak naar een
+                            event van een organisatie genaamd
+                            Arcana. Hier speel ik een krijger. Wat houdt een krijger in? Nou dit is een bepaalde baan.
+                            Deze specifieke baan focused op
+                            vechten met wapens zoals zwaarden bijlen etc. zelf zit ik ook mij een geloof genaamd de
+                            Generalen. Dit is makkelijk gezecht
+                            het militaire geloof waar ik in zit.
+                        </a4>
+                    </div>
+                    <div class="Larpimg">
+                        <img src="Larp.jpg" alt="me" />
+                        <p> Mijn larp outfit</p>
+                    </div>
+                </Div>
+                <div class="Anime">
+                    <div class="Animetext">
+                        <h1>Anime/manga</h1>
+                        <a4>Anime is een van mijn favoriete hobbies is anime kijken en Manga lezen Dit doe ik dat in
+                            mijn vrije tijd.
+                            Meestal lees ik meer manga dan dat ik anime kijk. Dit komt vaak omdat waneer ik de manga heb
+                            gelezen heb ik weinig intresse in de anime
+                            omdat die de manga voor het meeste volgt. Bij sommige anime's is het anders deze kijk ik
+                            vaak wel maar als het
+                            precies hetzelfde is dan kijk ik het vaak niet.
+                        </a4>
+                    </div>
+                    <div class="animeimg">
+                        <img src="Aime.jpg" alt="me" />
+                        <p> Favoriete anime</p>
+                    </div>
+                </div>
+                <div class="Footer">
+                    <div class="contactgegevens">
+                        <ul>
+                            <li>telefoonnummer: 06 82809354</li>
+                            <li>Prive E-mail: r.d.k.wartim@gmail.com</li>
+                            <li>school E-mail: 168308@student.horizoncollege.nl</li>
+                            <li>Adres: Heerhugowaard, IJsbeer 38, 1704 TX</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div>@copyright Bami Industries</div>
+</body>
+
+</html>

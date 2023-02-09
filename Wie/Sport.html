@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>who am I</title>
+</head>
+
+<body>
+  <div class="all">
+    <header class="Header">
+      <nav class="navbar">
+        <a href="Home.html"> <img src="Logo.png" alt="Logo" />
+          <h1>Richenel Wartim</h1>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="Home.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="wie.html" class="nav-link">wie ben ik</a>
+          </li>
+          <li class="nav-item">
+            <a href="Sport.html" class="nav-link">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a href="Hobby.html" class="nav-link">Hobby's</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }</script>
+      <div class="Body">
+        <div class="GYM">
+          <div class="Gymtext">
+            <h1>Fitness/GYM</h1>
+            Ik ga naar Big Gym hier ga ik 3 dagen per week Naartoe. Elke dag focus ik dan op een ander lichaam deel.
+            zodat
+            ik het meest efficient werk. Dit doe ik niet echt met een reden. Ik doe het meer omdat ik het zelf wil doen.
+            Ik vind naar de gym gaan redelijk leuk en motiverend voor mezelf.
+
+          </div>
+
+          <div class="tenor-gif-embed" data-postid="26181704" data-share-method="host" data-aspect-ratio="1.77778"
+            data-width="98%"><a
+              href="https://tenor.com/view/we-go-gym-we-go-gym-now-lex-little-we-go-jim-gif-26181704">We Go Gym We Go
+              Gym
+              Now GIF</a>from <a href="https://tenor.com/search/we+go+gym-gifs">We Go Gym GIFs</a></div>
+          <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+        </div>
+        <div class="Exercises">
+          <h1>Exercises</h1>
+          <p>
+            Ik zelf doe verschillende oefeningen en splits het op drie verschillende dagen.</p>
+          <p>
+            Dag één Ga ik vaak Upper body trainen. hier doe ik vaak Bench press, Dippen,Incline bench press. Voor mijn
+            borst training. Voor mijn back doe ik dan Lat pulldown, Seated row and kroc rows. As for Six pack(maag) I do
+            Leg pull
+            ups, Cruches and situps.
+          </p>
+          <p>
+            Dag twee Do ik Armen trainen. hier doe ik vaak Close-grip Curl, Incline Bicep Curl en reverse-grip EZ bar
+            curl voor mijn biceps en dan voor mijn triceps doe ik dan two arm triceps Exentsion(zittend), Decline
+            close-grip EZ bar skullcrusher en close-grip Bench press. Als laast voor mijn voorarmen doe ik Straight
+            barbell palms-up wrist curls en Straight Barbell Palms-down Wrist Curl.
+          </p>
+          <p>
+            Dag drie do ik Leg day dus dan train ik mijn benen. doe ik vaak de Romanian Deadlift, Goblet Squat, single
+            leg curl, leg extension en incline treadmill. Er horen er nog een paar bij maar die wisselen vaak af.
+          </p>
+          <p>
+            Ik ben hier vaak 1 uur tot 1 uur en 30 min aan bezig en doe het vaak richting middag na school tot avond
+            liggend aan hoe laat ik kan. Ik doe dit Samen met mijn moeder die met mij mee gaat deze dingen te doen. mijn
+            moeder zegt wel vaak dat ik haar te hard push maar ze redt het vaak altijd wel dus ik vind dat ik haar
+            precies genoeg push.
+          </p>
+        </div>
+      </div>
+      <div class="Footer">
+        <div class="contactgegevens">
+          <ul>
+            <li>telefoonnummer: 06 82809354</li>
+            <li>Prive E-mail: r.d.k.wartim@gmail.com</li>
+            <li>school E-mail: 168308@student.horizoncollege.nl</li>
+            <li>Adres: Heerhugowaard, IJsbeer 38, 1704 TX</li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </div>
+  <div>@copyright Bami Industries</div>
+
+</body>
+
+</html>

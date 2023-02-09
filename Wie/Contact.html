@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>who am I</title>
+</head>
+
+<body>
+    <div class="all">
+        <header class="Header">
+            <nav class="navbar">
+                <a href="Home.html"> <img src="Logo.png" alt="Logo" />
+                    <h1>Richenel Wartim</h1>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="Home.html" class="nav-link"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="wie.html" class="nav-link">wie ben ik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Sport.html" class="nav-link">Sport</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Hobby.html" class="nav-link">Hobby's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="Contact.html" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+            <script>
+                const hamburger = document.querySelector(".hamburger");
+                const navMenu = document.querySelector(".nav-menu");
+
+                hamburger.addEventListener("click", mobileMenu);
+
+                function mobileMenu() {
+                    hamburger.classList.toggle("active");
+                    navMenu.classList.toggle("active");
+                }
+                const navLink = document.querySelectorAll(".nav-link");
+
+                navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+                function closeMenu() {
+                    hamburger.classList.remove("active");
+                    navMenu.classList.remove("active");
+                }</script>
+            <Div class="Body">
+                <div class="Contact">
+                    <div class="left">
+                        
+                        <form action="">
+                            <div class="split">
+                                <div class="left">
+
+                                    <input type="text" id="fname" name="fname" placeholder="voornaam">
+
+                                    <input type="text" id="lname" name="lname" placeholder="achternaam">
+
+                                    <input type="email" id="email" name="email" placeholder="E-mail">
+                                    <textarea name="comment" form="usrform" id="Message" name=" Message" placeholder="schrijf uw bericht"></textarea>
+                                    <input type="submit" value="Submit">
+                                </div>
+
+
+                            </div>
+
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </Div>
+
+            <div class="Footer">
+                <div class="contactgegevens">
+                    <ul>
+                        <li>telefoonnummer: 06 82809354</li>
+                        <li>Prive E-mail: r.d.k.wartim@gmail.com</li>
+                        <li>school E-mail: 168308@student.horizoncollege.nl</li>
+                        <li>Adres: Heerhugowaard, IJsbeer 38, 1704 TX</li>
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <div>@copyright Bami Industries</div>
+</body>
+
+</html>

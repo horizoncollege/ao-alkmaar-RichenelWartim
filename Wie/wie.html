@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>who am I</title>
+</head>
+
+<body>
+  <div class="all">
+    <header class="Header">
+      <nav class="navbar">
+        <a href="Home.html"> <img src="Logo.png" alt="Logo" />
+          <h1>Richenel Wartim</h1>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="Home.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="wie.html" class="nav-link">wie ben ik</a>
+          </li>
+          <li class="nav-item">
+            <a href="Sport.html" class="nav-link">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a href="Hobby.html" class="nav-link">Hobby's</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }</script>
+      <div class="Body">
+        <div class="Wie-ik">
+          <div class="wie-ik-text">
+            <h1>wie ben ik</h1>
+            <a2>Nou wie is die Rare Richenel nou is hé. Ik zal je wel vertellen wie ik ben. Nou zoals je weet mijn naam
+              is
+              Richenel Wartim. Ik ben 20 jaar oud. nou zal ik je is vertellen wat ik allemaal heb meegemaakt </a2>
+            <h4>Defensie</h4>
+            <a2>ik heb 2 en een half jaar een Defensie opleiding gedaan en was jammer genoeg daarvoor gediskwalificeerd.
+              Ik heb hierzo de opleiding van een Onderofficier gekozen. Deze opleiding focust in het Trainen van
+              sergeanten etc. Hier heb ik het zeker naar mijn zin gehad, omdat ik het een erg leuke opleiding vondt. Het
+              is ook
+              een heel stuk anders dan een normale opleiding.
+              In deze opleiding gaat het echt om het team. Dit is ook wat mij het meest aantrok naar deze opleiding. Het
+              gevoel van een familie zijn inplaats van mensen die even samen zitten
+              maar dat is genoeg over mijn tijd in defensie op naar het volgende</a2>
+            <h4> waar werk ik?</h4>
+            <a2> Ik werk op dit moment bij thuisbezorgt
+              daar werk ik nu al 9 maanden de baan zelf is
+              wel redelijk leuk. omdat de mensen waarmee ik werk erg aardige mensen
+              zijn. beetje rond fietsen en betaalt krijgen Vind ik niet verkeerd het is beter dan andere bezorg
+              bedrijven.
+              dus ik ben er blij mee.</a2>
+          </div>
+          <div class="wieimg">
+            <img src="Wie ben ik.jpg" alt="me" />
+          </div>
+        </div>
+
+      </div>
+      <div class="MyFamilie">
+        <div class="FamText">
+          <h1> mijn Familie</h1>
+          <a2> Mijn familie bestaat uit 4 man inclusief mij</a2>
+          <h4> Mijn vader</h4>
+          <a2> mijn vader is een aardige vader vind ik. Hij steunt mij waar hij me steunen kan
+            hij werkt bij P1 in alkmaar dus af en toe wanneer ik werk Zie ik hem is rond lopen
+            wat ik redelijk grappig vind vaak.
+          </a2>
+          <h4> mijn zus</h4>
+          <a2> mijn zus werkt in de zorg ze is 23 jaar oud ik mag haar wel. Zij en ik snappen elkaar en helpen elkaar
+            wanneer nodig. we kunnen af en toe wel vechten maar dat is gewoon onze broer en zus relatie.</a2>
+          <h4> Mijn moeder</h4>
+          <a2> Mijn moeder werkt in de zorg ook. Maar die gaat bij mensen thuis langs. Daar gaat ze dan schoonmaken en
+            hun helpen etc. zij steund mij ook heel goed.</a2>
+        </div>
+
+
+      </div>
+      <div class="Footer">
+        <div class="contactgegevens">
+          <ul>
+            <li>telefoonnummer: 06 82809354</li>
+            <li>Prive E-mail: r.d.k.wartim@gmail.com</li>
+            <li>school E-mail: 168308@student.horizoncollege.nl</li>
+            <li>Adres: Heerhugowaard, IJsbeer 38, 1704 TX</li>
+          </ul>
+        </div>
+      </div>
+      <div>@copyright Bami Industries</div>
+  </div>
+</body>
+
+</html>

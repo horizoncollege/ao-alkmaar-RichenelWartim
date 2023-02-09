@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>who am I</title>
+</head>
+
+<body>
+  <div class="all">
+    <header class="Header">
+      <nav class="navbar">
+        <a href="Home.html"> <img src="Logo.png" alt="Logo" />
+          <h1>Richenel Wartim</h1>
+        </a>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="Home.html" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="wie.html" class="nav-link">wie ben ik</a>
+          </li>
+          <li class="nav-item">
+            <a href="Sport.html" class="nav-link">Sport</a>
+          </li>
+          <li class="nav-item">
+            <a href="Hobby.html" class="nav-link">Hobby's</a>
+          </li>
+          <li class="nav-item">
+            <a href="Contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+      <script>
+        const hamburger = document.querySelector(".hamburger");
+        const navMenu = document.querySelector(".nav-menu");
+
+        hamburger.addEventListener("click", mobileMenu);
+
+        function mobileMenu() {
+          hamburger.classList.toggle("active");
+          navMenu.classList.toggle("active");
+        }
+        const navLink = document.querySelectorAll(".nav-link");
+
+        navLink.forEach(n => n.addEventListener("click", closeMenu));
+
+        function closeMenu() {
+          hamburger.classList.remove("active");
+          navMenu.classList.remove("active");
+        }</script>
+
+
+
+    </header>
+
+    <div class="Body">
+      <div class="intro">
+        <h2>intro</h2>
+        <div class="IntroText">
+          <a2> welkom bij een kleine intro over mij. </a2>
+          <a2>hier in ga ik je vertellen over wie ik ben en wat ik doe.</a2>
+          <a2>Ik hoop dat je door middels van deze website je meer over</a2>
+          <a2>komt te weten. In hoop dat je een Connectie met mij kan vinden</a2>
+          </a>
+        </div>
+      </div>
+      <div class="Wie">
+        <h2>Kort wie ben ik</h2>
+        <div class="infobox">
+          <div class="WieText">
+            <a1> wie ben ik?</a1>
+            <a2>
+              voor de ongeïntreseerde mensen. Ik ben Richenel Wartim
+              Ik zit op horizon College en daar volg ik de Studie Software
+              development. Ik ben 20 jaar oud. Mijn persoonlijkeheid is redelijk
+              actief op school maar super lui thuis.
+            </a2>
+          </div>
+          <img src="frontpage.jpg" alt="me" />
+        </div>
+      </div>
+    </div>
+    <div class="Footer">
+      <div class="contactgegevens">
+        <ul>
+          <li>telefoonnummer: 06 82809354</li>
+          <li>Prive E-mail: r.d.k.wartim@gmail.com</li>
+          <li>school E-mail: 168308@student.horizoncollege.nl</li>
+          <li>Adres: Heerhugowaard, IJsbeer 38, 1704 TX</li>
+        </ul>
+      </div>
+    </div>
+    <div>@copyright Bami Industries</div>
+  </div>
+</body>
+
+</html>
